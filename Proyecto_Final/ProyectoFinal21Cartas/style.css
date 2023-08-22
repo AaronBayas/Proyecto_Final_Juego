@@ -1,0 +1,116 @@
+:root {
+    --primer-color: #21c0ad;
+    --segundo-color: #4456b0;
+    --tercer-color: #ffcf3f;
+    --color-base: #e7e9e9;
+    --color-texto: #ffffff;
+    --sombras-letras: #4ae9fe;
+    --sombreado-nav: #6c6f74;
+    --sombreado-nav2: #fdfdfd;
+    --texto-oscuro: #b8b3b3;
+    --fuente1-font-family: 'Indie Flower', cursive;
+    --fuente2-font-family: 'Rubik Iso', cursive;
+    --fuente3-font-family: 'Single Day', cursive;
+    --fuente4-font-family: 'Tilt Prism', cursive;
+    --fuente5-font-family: 'Bebas Neue', cursive;
+    --fuente6-font-family: 'Shadows Into Light', cursive;
+  }
+
+.container {
+    text-align: center;
+    margin-top: 150px;
+  }
+  .boton {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: #77dced;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+    transition: background-color 0.3s;
+    background-color: #3a8cb5;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius:25px;
+    transition: background-color 0.3s ease;
+    padding: 15px;
+    text-shadow: 2px 2px 4px #ff1317;
+    border: solid 2px rgb(111, 163, 187);
+    transition: transform 250ms ease-in-out, border 250ms ease-in-out, box-shadow 250ms ease-in-out;
+    background: linear-gradient(to bottom, #51afdf, #1d201e);
+    box-shadow: rgba(35, 121, 183, 0.268) 0px 26px 20px -10px, rgba(54, 137, 169, 0.73) 0px 16px 10px -10px;
+    margin: 10px;
+    transition: background-color 0.3s ease;
+    -webkit-border-radius:25px;
+    -moz-border-radius:25px;
+    -ms-border-radius:25px;
+    -o-border-radius:25px;
+    color: var(--sombreado-nav2);
+    align-items: center;
+    font-family: var(--fuente5-font-family);
+    font-size: 20px;
+}
+  
+  .boton:hover {
+    box-shadow: rgba(117, 171, 210, 0.8) 0px 40px 58px -16px, rgba(60, 191, 221, 0.72) 0px 30px 22px -10px;
+        transform: scale(1.10);
+        
+        border: 4px solid rgba(170, 210, 239, 0.8);
+        -webkit-transform: scale(1.10);
+        -moz-transform: scale(1.10);
+        -ms-transform: scale(1.10);
+        -o-transform: scale(1.10);
+        background-image: url("https://i.pinimg.com/originals/4a/c4/4f/4ac44fe41cfe6f6dd72dfca0797d82d3.gif");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        color: var(--sombreado-nav2);
+  }
+  
+  body {
+    background-image: url("https://img3.wallspic.com/previews/1/3/3/1/7/171331/171331-poquer_oscuro-poker-para_jugar_a_las_cartas-as-espadas-500x.jpg");
+    background-attachment: fixed;
+    background-position: center center;
+    margin: 0;
+    padding: 0;
+    background-color: #b2b2b2;
+    font-family: var(--fuente5-font-family);
+    font-size: 20px;
+  }
+  
+  @media (max-width: 1440px) {
+    /* Estilos adicionales para pantallas más pequeñas si lo necesitas */
+  }
+  
+    
+      h1 {
+        color: var(--sombreado-nav2);
+        font-family: 'Bowlby One SC', cursive;
+        font-size: 1.5rem;
+        font-weight: 300;
+        text-align: center;
+        text-shadow: 2px 2px 4px #14709e;
+        position: relative;
+      }
+      h1:hover {
+      animation: jump 0.5s infinite alternate;
+      cursor: pointer;
+      text-shadow: 0 0 3px rgba(34, 105, 128, 0.466), 0 0 20px rgb(179, 5, 185), 0 0 30px rgb(0, 174, 255), 0 0 40px rgb(47, 111, 157), 0 0 70px rgb(36, 129, 150), 0 0 80px #f00, 0 0 100px rgb(0, 234, 255), 0 0 150px rgb(0, 200, 255);
+      -webkit-animation: jump 0.5s infinite alternate;
+  }
+  
+  @keyframes jump {
+      0% {
+          transform: translate(0, 0) rotate(0deg);
+      }
+      50% {
+          transform: translate(0, -10px) rotate(0deg);
+      }
+      100% {
+          transform: translate(0, 0) rotate(0deg);
+      }
+  }

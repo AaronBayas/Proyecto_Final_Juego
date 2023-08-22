@@ -1,0 +1,173 @@
+:root {
+  --primer-color: #21c0ad;
+  --segundo-color: #4456b0;
+  --tercer-color: #ffcf3f;
+  --color-base: #e7e9e9;
+  --color-texto: #ffffff;
+  --sombras-letras: #4ae9fe;
+  --sombreado-nav: #6c6f74;
+  --sombreado-nav2: #fdfdfd;
+  --texto-oscuro: #b8b3b3;
+  --fuente1-font-family: 'Indie Flower', cursive;
+  --fuente2-font-family: 'Rubik Iso', cursive;
+  --fuente3-font-family: 'Single Day', cursive;
+  --fuente4-font-family: 'Tilt Prism', cursive;
+  --fuente5-font-family: 'Bebas Neue', cursive;
+  --fuente6-font-family: 'Shadows Into Light', cursive;
+}
+body {
+  background-image: url("https://e0.pxfuel.com/wallpapers/266/976/desktop-wallpaper-card-focus-casino-for-section-%D0%B8%D0%B3%D1%80%D1%8B-poker-table.jpg");
+      margin: 0;
+      padding: 0;
+      background-size:950px;
+
+
+      background-color: #b2b2b2;
+      align-items: center;
+      font-family: var(--fuente5-font-family);
+      font-size: 20px;
+    }
+  
+    h1 {
+      color: var(--sombreado-nav2);
+      font-family: 'Bowlby One SC', cursive;
+      font-size: 1.5rem;
+      font-weight: 300;
+      text-align: center;
+      text-shadow: 2px 2px 4px #13ffa5;
+      position: relative;
+    }
+    h1:hover {
+    animation: jump 0.5s infinite alternate;
+    cursor: pointer;
+    text-shadow: 0 0 3px rgba(212, 1, 1, 0.466), 0 0 20px rgb(179, 5, 185), 0 0 30px #f00, 0 0 40px #f00, 0 0 70px #f00, 0 0 80px #f00, 0 0 100px #f00, 0 0 150px #f00;
+    -webkit-animation: jump 0.5s infinite alternate;
+}
+
+@keyframes jump {
+    0% {
+        transform: translate(0, 0) rotate(0deg);
+    }
+    50% {
+        transform: translate(0, -10px) rotate(0deg);
+    }
+    100% {
+        transform: translate(0, 0) rotate(0deg);
+    }
+}
+.red-card {
+  color: rgb(116, 0, 0);
+  color: var(rgb(116, 0, 0));
+      font-family: 'Bowlby One SC', cursive;
+      font-size: 1.5rem;
+      font-weight: 300;
+      text-align: center;
+      text-shadow: 2px 2px 4px #ce0f0f;
+      position: relative;
+}
+.red-card:hover {
+  animation: jump 0.5s infinite alternate;
+  cursor: pointer;
+  text-shadow: 0 0 3px rgba(219, 204, 204, 0.466), 0 0 20px rgb(223, 209, 224), 0 0 30px #f00, 0 0 40px #f00, 0 0 70px #f00, 0 0 80px #f00, 0 0 100px #f00, 0 0 150px #f00;
+  -webkit-animation: jump 0.5s infinite alternate;
+}
+.special-card {
+  color: rgb(140, 114, 114);
+}
+    #gameArea {
+      background-image: url("https://i.ebayimg.com/thumbs/images/g/N60AAOSwhJlfaM6N/s-l640.jpg");
+      max-width: 600px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #590101;
+      border-radius: 8px;
+      box-shadow: 0 4px 6px rgba(227, 227, 227, 0.887);
+      text-align: center;
+      position: relative;
+    }
+  
+    h2 {
+      color: var(--sombreado-nav2);
+      align-items: center;
+      font-family: var(--fuente5-font-family);
+      font-size: 20px;
+    }
+  
+    #playerHand, #dealerHand {
+      margin: 20px 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+  
+    #playerHand div, #dealerHand div {
+      background-color: #3498db;
+      color: #fff;
+      font-size: 1rem;
+      width: 60px;
+      height: 90px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 5px;
+      border-radius: 4px;
+    }
+  
+    #message {
+      font-size: 1.1rem;
+      margin: 20px 0;
+    }
+  
+    #hitButton, #standButton, #startButton, #restartButton, #boton {
+      background-color: #81ba7e;
+      color: #ffffff;
+      border: none;
+      padding: 10px 20px;
+      font-size: 1rem;
+      cursor: pointer;
+      border-radius: 0 15px;
+      transition: background-color 0.3s ease;
+      padding: 15px;
+     text-shadow: 2px 2px 4px #ff1317;
+      border: solid 2px rgb(230, 228, 228);
+      transition: transform 250ms ease-in-out, border 250ms ease-in-out, box-shadow 250ms ease-in-out;
+      background: linear-gradient(to bottom, #c6acac, #1d201e);
+      box-shadow: rgba(0, 0, 0, 0.268) 0px 26px 20px -10px, rgba(113, 113, 113, 0.73) 0px 16px 10px -10px;
+      margin: 10px;
+      transition: background-color 0.3s ease;
+      -webkit-border-radius: 0 15px;
+      -moz-border-radius: 0 15px;
+      -ms-border-radius: 0 15px;
+      -o-border-radius: 0 15px;
+      color: var(--sombreado-nav2);
+      align-items: center;
+      font-family: var(--fuente5-font-family);
+      font-size: 20px;
+      
+      
+    }
+  
+    #hitButton:hover, #standButton:hover, #startButton:hover, #restartButton:hover, #boton:hover {
+      box-shadow: rgba(220, 212, 212, 0.8) 0px 40px 58px -16px, rgba(0, 0, 0, 0.72) 0px 30px 22px -10px;
+      transform: scale(1.10);
+      
+      border: 4px solid rgba(255, 255, 255, 0.8);
+      -webkit-transform: scale(1.10);
+      -moz-transform: scale(1.10);
+      -ms-transform: scale(1.10);
+      -o-transform: scale(1.10);
+      background-image: url("https://i.pinimg.com/originals/03/4a/e8/034ae86aa266f8c0cbfff8b44c427017.png");
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      color: var(--sombreado-nav2);
+    }
+  
+    #result {
+      display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    }
